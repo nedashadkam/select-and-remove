@@ -1,0 +1,24 @@
+div {
+    background-color: #edeac0;
+    width: 14.3%;
+    padding: 2%;
+    border: 1px dotted darkolivegreen;
+}
+
+select {
+    background-color: #cfbba1;
+    padding: 2px;
+    border: 1px solid dimgray;
+    border-radius: 3px;
+}
+
+input {
+    background-color: darkseagreen;
+    border: 1px solid darkseagreen;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+option {
+    background-color: #efeae4;
+}

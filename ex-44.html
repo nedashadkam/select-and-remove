@@ -1,0 +1,50 @@
+<!-- یک برنامه جاوا اسکریپت بنویسید تا موارد را از لیست کشویی حذف کنید. -->
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <link rel="stylesheet" type="text/css" href="ex-44.css">
+
+</head>
+
+<body>
+
+    <div>
+
+        <form>
+
+            <select id="select">
+
+                <option>item 1</option>
+                <option>item 2</option>
+                <option>item 3</option>
+                <option>item 4</option>
+                <option>item 5</option>
+                <option>item 6</option>
+                <option>item 7</option>
+
+            </select>
+
+            <input type="button" value="Select and remove" onclick="remove()" >
+
+        </form>
+
+    </div>
+
+    <script>
+
+        function remove() {
+
+            let x = document.getElementById("select");
+            x.remove(x.selectedIndex);
+
+        }
+
+    </script>
+
+</body>
+
+</html>
